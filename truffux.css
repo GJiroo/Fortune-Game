@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+
+div.contenu {
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 50px 10% 50px 10%;
+    padding: 0 30px 30px 30px;
+    box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+p.title {
+    background-color: white;
+    color: black;
+    display: inline;
+    font-size: 50px;
+}
+
+div.separateur {
+    background-color: black;
+    width: 300px;
+    height: 1px;
+    display: block;
+    margin-left : auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+img.truffuximg {
+    display: block;
+    object-fit: cover;
+    height: 400px;
+    margin-top: 20px;
+    min-height: 200px;
+    max-height: 400px;
+    position : relative;
+}
+
+div.qualites{
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.qualites h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+div.qualites p {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+
+div.description p {
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+}
+
+p.name {
+    background-color:#8BA1BBC0 ;
+    color: white;
+    width: 100%;
+    position : absolute;
+    font-size: 50px;
+    margin:0;
+    bottom:0;
+}
+
+div.type {
+    overflow: visible;
+    margin-top: -20px;
+}
+
+p.type {
+    color: white;
+    display: inline-block;
+    overflow: visible;
+    background-color: black;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
