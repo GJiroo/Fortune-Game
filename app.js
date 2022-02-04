@@ -26,7 +26,7 @@ successfullybuy.style.left = "-30%"
 
 init()
 
-function init{
+function init(){
     selectMoney();
     openCloseCart();
     newItemCart();
