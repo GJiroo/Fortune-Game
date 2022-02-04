@@ -67,7 +67,7 @@ function openCloseCart(){
     })
 }
 
-function newItemCart{
+function newItemCart(){
     allButtonsAdd.forEach((btn)=>{
         btn.addEventListener('click',()=>{
 
