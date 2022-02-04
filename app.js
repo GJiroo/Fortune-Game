@@ -1,13 +1,13 @@
 const choices = Array.from(document.querySelectorAll('.celebrities>ul:first-child>li'));
-const cart = document.querySelector('.allitem')
-const buttonCart = document.querySelector('.cart>button')
-const allButtonsAdd = Array.from(document.querySelectorAll('.boutique>ul>li>button'))
-const allPrices = Array.from(document.querySelectorAll('.boutique>ul>li>p'))
-const allItems = Array.from(document.querySelectorAll('.boutique>ul>li>h4'))
-const ul = document.querySelector('.ulallitem')
-const errormoney = document.querySelector('.errormoney')
-const successfullybuy = document.querySelector('.successfullybuy')
-
+const cart = document.querySelector('.allitem');
+const buttonCart = document.querySelector('.cart>button');
+const allButtonsAdd = Array.from(document.querySelectorAll('.boutique>ul>li>button'));
+const allPrices = Array.from(document.querySelectorAll('.boutique>ul>li>p'));
+const allItems = Array.from(document.querySelectorAll('.boutique>ul>li>h4'));
+const ul = document.querySelector('.ulallitem');
+const errormoney = document.querySelector('.errormoney');
+const successfullybuy = document.querySelector('.successfullybuy');
+const h2Cart = document.querySelector('.closeCart');
 
 let allButtons = document.querySelectorAll('.buttonremoveitem')
 let allItemsList = [];
@@ -21,8 +21,8 @@ let spentMoney = 0;
 let totalMoney = 211000000000;
 
 cart.style.left = "-300px";
-errormoney.style.left = "-30%"
-successfullybuy.style.left = "-30%"
+errormoney.style.left = "-30%";
+successfullybuy.style.left = "-30%";
 
 
 
@@ -51,7 +51,9 @@ buttonCart.addEventListener('click',()=>{
         cart.style.left = "-300px";
     };
 
-    
+    h2Cart.addEventListener('click',()=>{
+        cart.style.left = "-300px";
+    })
 
 })
 
