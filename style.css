@@ -228,6 +228,11 @@ ul li button:hover{
     padding-top: 10px;
     border-bottom: 2px solid #333;
     display: inline-block;
+    transition: color .4s;
+}
+
+.allitem h2:hover{
+    color: tomat;
 }
 
 .allitem ul li p {
