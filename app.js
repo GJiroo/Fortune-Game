@@ -7,7 +7,7 @@ const allItems = Array.from(document.querySelectorAll('.boutique>ul>li>h4'))
 const ul = document.querySelector('.ulallitem')
 const errormoney = document.querySelector('.errormoney')
 const successfullybuy = document.querySelector('.successfullybuy')
-const h2Cart = document.querySelector('.cart>h2')
+const h2Cart = document.querySelector('.cart>a')
 
 let allButtons = document.querySelectorAll('.buttonremoveitem')
 let allItemsList = [];
