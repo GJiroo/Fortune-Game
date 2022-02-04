@@ -210,8 +210,9 @@ ul li button:hover{
     overflow: auto;
 }
 
-
-
+.allitem::-webkit-scrollbar{
+    display: none;
+}
 
 .allitem ul {
     background-color: #f1f1f1;
