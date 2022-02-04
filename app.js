@@ -7,7 +7,7 @@ const allItems = Array.from(document.querySelectorAll('.boutique>ul>li>h4'))
 const ul = document.querySelector('.ulallitem')
 const errormoney = document.querySelector('.errormoney')
 const successfullybuy = document.querySelector('.successfullybuy')
-const h2Cart - document.querySelector('.cart>h2')
+const h2Cart = document.querySelector('.cart>h2')
 
 let allButtons = document.querySelectorAll('.buttonremoveitem')
 let allItemsList = [];
@@ -24,7 +24,7 @@ cart.style.left = "-300px";
 errormoney.style.left = "-30%"
 successfullybuy.style.left = "-30%"
 
-
+init()
 
 function init{
     selectMoney();
